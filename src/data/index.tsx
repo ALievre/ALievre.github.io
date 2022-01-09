@@ -2,12 +2,12 @@ import React from 'react';
 import Greeter from '../views/Greeter';
 import Diploma from '../views/Diploma';
 import { PageLink, TabLink } from '../models';
-import { jsOrange, midBlue, green, pink } from '../theme/colors';
+import { jsOrange, midBlue, green, red, darkOrange, lbIconColor, cyan, purple } from '../theme/colors';
 
 import staticData from './json/static.json';
 import contactData from './json/contact.json';
-import sweData from './json/swe.json';
-import baData from './json/ba.json';
+import cvData from './json/cv.json';
+import msgData from './json/msg.json';
 import pkg from '../../package.json';
 
 import { calculateDiplomaProgress } from '../utils';
@@ -27,50 +27,91 @@ export const pages: PageLink[] = [
     ),
   },
   {
-    name: 'Software Engineering',
-    url: '/swe',
-    icon: 'graduation-cap',
+    name: 'CV',
+    url: '/cv',
+    icon: 'file-pdf',
     isInternal: true,
-    badge: `${calculateDiplomaProgress(sweData, 0)}%`,
-    comp: () => <Diploma diplomaData={sweData} />,
+    badge: '',
+    comp: () => <Diploma diplomaData={cvData} />,
   },
   {
-    name: 'Business Administration',
-    url: '/ba',
-    icon: 'graduation-cap',
+    name: 'Contact',
+    url: '/contact',
+    icon: 'comments',
     isInternal: true,
-    badge: `${calculateDiplomaProgress(baData, 0)}%`,
-    comp: () => <Diploma diplomaData={baData} />,
+    badge: '',
+    comp: () => <Diploma diplomaData={msgData} />,
   },
 ];
 
 export const tabs: TabLink[] = [
   {
-    name: 'skills.js',
-    url: '/skills',
+    name: 'info.html',
+    url: '/info',
+    icon: ['fab', 'html5'],
+    color: darkOrange,
+    mdFileName: 'info',
+  },
+  {
+    name: 'smartdevices.ino',
+    url: '/smart_devices',
+    icon: 'microchip',
+    color: cyan,
+    mdFileName: 'smart_devices',
+  },
+  {
+    name: '.comm',
+    url: '/communication',
+    icon: 'satellite-dish',
+    color: lbIconColor,
+    mdFileName: 'communication',
+  },
+  {
+    name: 'middleware.js',
+    url: '/middleware_service',
     icon: ['fab', 'js'],
     color: jsOrange,
-    mdFileName: 'skills',
+    mdFileName: 'middleware_service',
   },
   {
-    name: '.educationrc',
-    url: '/education',
-    icon: 'university',
-    color: midBlue,
-    mdFileName: 'education',
-  },
-  {
-    name: 'projects.config',
-    url: '/projects',
-    icon: 'sliders-h',
+    name: 'data.py',
+    url: '/analysis',
+    icon: ['fab', 'python'],
     color: green,
-    mdFileName: 'projects',
+    mdFileName: 'analysis',
   },
   {
-    name: 'certificates.sass',
-    url: '/certificates',
-    icon: ['fab', 'sass'],
-    color: pink,
-    mdFileName: 'certificates',
+    name: 'hackathon.js',
+    url: '/hackathon',
+    icon: ['fab', 'js'],
+    color: jsOrange,
+    mdFileName: 'hackathon',
   },
+  {
+    name: '.innovation',
+    url: '/innovation',
+    icon: 'lightbulb',
+    color: purple,
+    mdFileName: 'innovation_humanity',
+  },{
+    name: 'projects.io',
+    url: '/projects',
+    icon: 'code-branch',
+    color: midBlue,
+    mdFileName: 'projects_portfolio',
+  },
+  {
+    name: 'cv.pdf',
+    url: '/cv',
+    icon: 'file-pdf',
+    color: red,
+    mdFileName: 'cv',
+  },
+  {
+    name: 'contact.md',
+    url: '/contact',
+    icon: ['fab', 'markdown'],
+    color: lbIconColor,
+    mdFileName: 'contact',
+  }
 ];

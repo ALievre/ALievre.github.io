@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "title": "Contacts",
+    "subtitle": "You can contact me via:",
+    "info": ""
+  },
+  "semesters": [
+    {
+      "name": "Email",
+      "dates": {
+        "start": "",
+        "end": ""
+      },
+      "courses": [
+        {
+          "courseName": "INSA Toulouse email",
+          "sections": [
+            {
+              "title": "lievre@insa-toulouse.fr",
+              "url": "mailto:lievre@insa-toulouse.fr",
+              "progress": {
+                "completed": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "courseName": "Gmail",
+          "sections": [
+            {
+              "title": "lievreagathe@gmail.com",
+              "url": "mailto:lievreagathe@gmail.com",
+              "progress": {
+                "completed": 1,
+                "total": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -5,9 +5,9 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/caglarturali/caglarturali.github.io"
+    "url": "https://github.com/ALievre/Portfolio"
   },
-  "homepage": "https://turali.js.org",
+  "homepage": "https://alievre.github.io/Portfolio/",
   "license": "GNU GPLv3",
   "scripts": {
     "start": "react-scripts start",

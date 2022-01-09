@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "title": "My CV",
+    "subtitle": "Here, you can find my CV.",
+    "info": "I update it everytime I have a new experience"
+  },
+  "semesters": [
+    {
+      "name": "January 2022",
+      "dates": {
+        "start": "",
+        "end": ""
+      },
+      "courses": [
+        {
+          "courseName": "CV Link",
+          "sections": [
+            {
+              "title": "C Programming with Linux Professional Certificate",
+              "url": "https://www.edx.org/professional-certificate/dartmouth-imtx-c-programming-with-linux",
+              "progress": {
+                "completed": 7,
+                "total": 7
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

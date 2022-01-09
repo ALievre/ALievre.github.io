@@ -21,4 +21,4 @@ export const jsOrange = '#ffca28';
 export const darkOrange = '#e44d26';
 export const lightBrown = '#6e6352';
 export const pink = '#e13e76';
-export const purple = '#c678dd';
+export const purple = '#9c56c2';

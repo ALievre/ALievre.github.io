@@ -34,19 +34,7 @@ const MainButtons: React.FC<MainButtonsProps> = ({ contactData, repoUrl }) => {
       icon: ['fab', 'github'],
       size: 'lg',
       text: `Follow @${username}`,
-    },
-    // Stargazers button
-    {
-      resource: {
-        endpoint: `https://api.github.com/repos/${username}/${repo}`,
-        attr: 'stargazers_count',
-      },
-      href: repoUrl,
-      title: `Star ${username}/${repo} on GitHub`,
-      icon: 'star',
-      size: 'sm',
-      text: 'Star',
-    },
+    }
   ];
 
   const mainContact = contactData.find((c) => c.isMain) as ContactItem;

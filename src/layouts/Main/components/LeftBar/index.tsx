@@ -28,7 +28,7 @@ const LeftBar: React.FC<LeftBarProps> = ({ contactData }) => {
 
   const bottom: ContactItem[] = [
     {
-      name: 'Useless button!',
+      name: 'Parameters',
       url: '',
       icon: 'cog',
       isInternal: true,

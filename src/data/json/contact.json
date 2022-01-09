@@ -1,38 +1,20 @@
 [
   {
-    "name": "Telegram",
-    "url": "https://t.me/caglarturali",
-    "icon": ["fab", "telegram-plane"],
+    "name": "Email",
+    "url": "mailto:lievre@insa-toulouse.fr",
+    "icon": "envelope",
     "isMain": true
   },
   {
     "name": "GitHub",
-    "url": "https://github.com/caglarturali",
+    "url": "https://github.com/ALievre",
     "icon": ["fab", "github"],
     "isMain": false
   },
   {
-    "name": "GitLab",
-    "url": "https://gitlab.com/caglarturali",
-    "icon": ["fab", "gitlab"],
-    "isMain": false
-  },
-  {
     "name": "LinkedIn",
-    "url": "https://linkedin.com/in/caglarturali",
+    "url": "https://www.linkedin.com/in/agathelievre/",
     "icon": ["fab", "linkedin"],
-    "isMain": false
-  },
-  {
-    "name": "Instagram",
-    "url": "https://www.instagram.com/caglarturali/",
-    "icon": ["fab", "instagram"],
-    "isMain": false
-  },
-  {
-    "name": "goodreads",
-    "url": "https://www.goodreads.com/caglarturali",
-    "icon": ["fab", "goodreads"],
     "isMain": false
   }
 ]

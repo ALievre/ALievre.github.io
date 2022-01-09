@@ -25,9 +25,10 @@ const StatusBar: React.FC = () => {
       </a>
 
       <span>
+      <span className={classes.text}>Made with </span>
         <FontAwesomeIcon
           className={classes.icon}
-          icon="smile"
+          icon="heart"
           size="sm"
           inverse
         />
