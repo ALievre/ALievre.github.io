@@ -52,6 +52,9 @@ const Greeter: React.FC<GreeterProps> = ({
           <span id="typed-insert-point" style={{ whiteSpace: 'pre' }} />
         </div>
         <MainButtons contactData={contactData} repoUrl={repoUrl} />
+        <br></br>
+        <br></br>
+        <h2 className={classes.footing}>{staticData.secondLine}</h2>
       </section>
     </>
   );

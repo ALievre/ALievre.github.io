@@ -8,6 +8,8 @@ import staticData from './json/static.json';
 import contactData from './json/contact.json';
 import cvData from './json/cv.json';
 import msgData from './json/msg.json';
+import coursesData from './json/courses.json';
+import matrixData from './json/skills_matrix.json';
 import pkg from '../../package.json';
 
 import { calculateDiplomaProgress } from '../utils';
@@ -27,8 +29,24 @@ export const pages: PageLink[] = [
     ),
   },
   {
+    name: 'Courses',
+    url: '/courses',
+    icon: 'list-alt',
+    isInternal: true,
+    badge: '',
+    comp: () => <Diploma diplomaData={coursesData} />,
+  },
+  {
+    name: 'Skill Matrix',
+    url: '/matrix',
+    icon: 'table',
+    isInternal: true,
+    badge: '',
+    comp: () => <Diploma diplomaData={matrixData} />,
+  },
+  {
     name: 'CV',
-    url: '/cv',
+    url: '/cv_git',
     icon: 'file-pdf',
     isInternal: true,
     badge: '',
@@ -41,7 +59,7 @@ export const pages: PageLink[] = [
     isInternal: true,
     badge: '',
     comp: () => <Diploma diplomaData={msgData} />,
-  },
+  }
 ];
 
 export const tabs: TabLink[] = [

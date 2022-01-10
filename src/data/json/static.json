@@ -1,8 +1,9 @@
 {
-  "mainLine": "Hi! I'm Agathe. Welcolme to my portfolio.",
+  "mainLine": "Hi! I'm Agathe Lièvre. Welcome to my portfolio.",
+  "secondLine": "INSA Toulouse - 5ISS - 2021/2022",
   "typed": [
     "I'm a 5th year INSA Toulouse student.",
     "I'm specialized in Innovative Smart Systems.",
-    "I'm from the Electronics and Automatics section, option Embedded Systems."
+    "I'm from the Automatic Control and Electronics section, option Embedded Systems."
   ]
 }

@@ -14,6 +14,7 @@ import {
   mlSize,
   sansFont,
   heights,
+  sSize,
 } from '../../theme';
 
 export default {
@@ -30,6 +31,19 @@ export default {
     color: textMid,
     fontWeight: 400,
     fontSize: lSize,
+    letterSpacing: '2px',
+    margin: '10px 20px',
+    padding: '0',
+    textShadow: `5px 5px ${bgDarkBlue}`,
+    userSelect: 'none',
+    [`@media screen and (max-width: ${breakpoints.desktop})`]: {
+      fontSize: mllSize,
+    },
+  },
+  footing: {
+    color: textMid,
+    fontWeight: 400,
+    fontSize: sSize,
     letterSpacing: '2px',
     margin: '10px 20px',
     padding: '0',

@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "title": "Skills matrix",
+    "subtitle": "How to read the skills matrix?",
+    "info": "This page helps you to read the skill matrix in the Analysis part of each course."
+  },
+  "semesters": [
+    {
+      "name": "The skills matrix rates the skill level of a student from with 4 levels of expertise. The levels are the following:",
+      "dates": {
+        "start": "",
+        "end": ""
+      },
+      "courses": [
+        {
+          "courseName": "1/AP",
+          "sections": [
+            {
+              "title": "level of application: follow-up of instructions or procedures",
+              "url": "",
+              "progress": {
+                "completed": 7,
+                "total": 7
+              }
+            }
+          ]
+        },
+        {
+          "courseName": "2/AN",
+          "sections": [
+            {
+              "title": "level of analysis: improvement or optimization of solutions or proposals",
+              "url": "",
+              "progress": {
+                "completed": 7,
+                "total": 7
+              }
+            }
+          ]
+        },
+        {
+          "courseName": "3/M",
+          "sections": [
+            {
+              "title": "level of proficiency: program design or specification definitions",
+              "url": "",
+              "progress": {
+                "completed": 7,
+                "total": 7
+              }
+            }
+          ]
+        },
+        {
+          "courseName": "4/EX",
+          "sections": [
+            {
+              "title": "level of expertise: definition of orientations or strategies",
+              "url": "",
+              "progress": {
+                "completed": 7,
+                "total": 7
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Finally, there is the Learning mode. It describes the biggest way or ways I learned a skill, it can be:",
+      "dates": {
+        "start": "",
+        "end": ""
+      },
+      "courses": [
+        {
+          "courseName": "IT",
+          "sections": [
+            {
+              "title": "Initial training",
+              "url": "",
+              "progress": {
+                "completed": 7,
+                "total": 7
+              }
+            }
+          ]
+        },
+        {
+          "courseName": "PE",
+          "sections": [
+            {
+              "title": "Peer exchange",
+              "url": "",
+              "progress": {
+                "completed": 7,
+                "total": 7
+              }
+            }
+          ]
+        },
+        {
+          "courseName": "ST",
+          "sections": [
+            {
+              "title": "Self-training",
+              "url": "",
+              "progress": {
+                "completed": 7,
+                "total": 7
+              }
+            }
+          ]
+        },
+        {
+          "courseName": "PP",
+          "sections": [
+            {
+              "title": "Professional practice",
+              "url": "",
+              "progress": {
+                "completed": 7,
+                "total": 7
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -22,6 +22,8 @@ import {
   faLightbulb,
   faHeart,
   faComments,
+  faListAlt,
+  faTable,
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
@@ -38,6 +40,8 @@ library.add(
   faLightbulb,
   faCodeBranch,
   faHeart,
+  faListAlt,
+  faTable,
   faComments,
   faUniversity,
   faCodeBranch,
