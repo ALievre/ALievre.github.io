@@ -12,10 +12,13 @@ export const textDark = '#909295';
 export const textBlue = '#636d83';
 export const textLightBlue = '#abb2bf';
 
-export const green = '#98c379';
+export const progressColor = '#4ef2c9';
+export const lightGreen = '#98c379';
+export const green = '#36874a';
 export const red = '#e06c75';
 export const cyan = '#56b6c2';
 export const midBlue = '#42a5f5';
+export const yellowVitesco = '#f0e613';
 export const orange = '#d19a66';
 export const jsOrange = '#ffca28';
 export const darkOrange = '#e44d26';

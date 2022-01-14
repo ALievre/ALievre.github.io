@@ -3,7 +3,7 @@
  */
 import React from 'react';
 import Color from 'color';
-import { bgMidBlue, green } from '../../theme';
+import { bgMidBlue, progressColor } from '../../theme';
 
 export interface ProgressBarProps {
   value: number;
@@ -15,7 +15,7 @@ export interface ProgressBarProps {
 
 const ProgressBar: React.FC<ProgressBarProps> = ({
   value,
-  color = green,
+  color = progressColor,
   bgColor = Color(bgMidBlue).lighten(0.125).string(),
   width = 500,
   height = 3,

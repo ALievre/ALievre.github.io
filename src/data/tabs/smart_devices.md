@@ -3,15 +3,13 @@
 SUPERVIZOR: JÉRÉMIE GRISOLIA
 
 <p style="text-indent: 2%; text-align: justify;">
-    Smart devices based on sensors are everywhere in our daily life. In this course, we will follow the complete creation process of a smart gas sensor, from the nano-particle deposition to the signal acquisition on a microcontroller and the LoRa communication.
+    Smart devices based on sensors are an important part of all the devices surrounding us. In this course, we participated in the whole creation process of a gas sensor, from the nano-particle deposition to the signal acquisition on a microcontroller.
 </p>
 
 <details>
     <summary style="color: #56b6c2">Description</summary>
     <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-        The Smart Devices course or module gathers five classes that go over the different steps to produce a smart sensor, in our case a gas detector.
-        First, we had theoretical classes about sensors in general and optical sensors, as an introduction or reminder to the concepts of real-life physical values measurement. Then, we tackled the actual sensor creation at the AIME lab, and all the post treatment of the measurement produced.
-        You can find a quick summary of the courses content in the table below. The next subsection will focus on the most relevent experiences in more detail: the nano-particle deposition to create the sensor, and the MOSH mini-project.
+        The Smart Devices module gathers four classes that go over the different steps of production of a nana-particle based gas sensor. We completed an internship at the AIME lab to be part of the creation of the sensor and the treatment of the produced data we measured during tests. We also had theoretical classes about sensors in general, as an introduction to the concepts of real-life physical values measurement. First, I summarized the courses in the table below. Then, I focused on the most relevent experiences: the nano-particle deposition to create the sensor and the M&OSH project.
     </p>
     <table style="border-collapse: collapse; border: 1px #56b6c2 solid; text-align: center; margin-left: 2%;">
     <tr style="border: 1px #56b6c2 solid; background-color: #56b6c2; color: #282c34; font-weight: bold;text-align: center; padding: 10px;">
@@ -19,20 +17,20 @@ SUPERVIZOR: JÉRÉMIE GRISOLIA
        <th style="border: 1px #56b6c2 solid;">Context & Mission</th>
     </tr>
     <tr>
-       <td style="border: 1px #56b6c2 solid; font-weight: bold;">Introduction to sensors</td>
-       <td style="border: 1px #56b6c2 solid;">Theoretical lectures and practical works about the physical concepts of different types of sensors and how to create a sensor datasheet. This would help us build the datasheet for our gas sensor.</td>
+       <td style="border: 1px #56b6c2 solid; font-weight: bold;">Microcontrollers & Open-Source Hardware, Embedded IA (M&OSH)</td>
+       <td style="border: 1px #56b6c2 solid;">Project elaborated in groups of two involving the gas sensor that we built. It consisted of using our sensor with an ESP32, creating a PCB board using KiCad and adding a Lora communication module to turn our sensor into a smart sensor sending data to The Things Network's cloud.</td>
     </tr>
     <tr>
-       <td style="border: 1px #56b6c2 solid; font-weight: bold;">KiCad and AIME nano-sensor</td>
-       <td style="border: 1px #56b6c2 solid;">This class regroups two main experiences. First, the realization of the chemical process of our sensor, with the deposition of nano-particles on a silicium board that react with certain gases. Then, with the design of a custom PCB for our sensor, using KiCad.</td>
+       <td style="border: 1px #56b6c2 solid; font-weight: bold;">CAD, Manufacturing & Integration of Nano-Technology Sensors (AIME)</td>
+       <td style="border: 1px #56b6c2 solid;">Internship at the AIME lab to realize the chemical process of creating our sensor with a nano-particle deposition on a silicium board.</td>
+    </tr>
+    <tr>
+       <td style="border: 1px #56b6c2 solid; font-weight: bold;">Sensors Introduction</td>
+       <td style="border: 1px #56b6c2 solid;">Theoretical lectures and practical works about the physical concepts of different types of sensors and how to create a sensor datasheet. This helped us create the datasheet for our gas sensor.</td>
     </tr>
     <tr>
        <td style="border: 1px #56b6c2 solid; font-weight: bold;">Analog Electronics Labs</td>
        <td style="border: 1px #56b6c2 solid;">Practical works destined to help us design the analog circuit that would transform the output value of our sensor (in the form of a resistance variation) to a usable signal going from 1V to 5V.</td>
-    </tr>
-    <tr>
-       <td style="border: 1px #56b6c2 solid; font-weight: bold;">Microcontroller & Open-source Hardware (MOSH)</td>
-       <td style="border: 1px #56b6c2 solid;">Mini-project conducted in a group of three, consisting in using all the components we built previously: the gas sensor and the PCB with the signal treatment circuit. We then added a communication module with a LoRa chip and an Arduino Uno to turn our sensor into a smart sensor, sending data to the cloud.</td>
     </tr>
     </table>
     <br>

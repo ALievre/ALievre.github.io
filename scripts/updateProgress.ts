@@ -6,7 +6,7 @@
 
 import fs from 'fs';
 import path from 'path';
-import sweData from '../src/data/json/swe.json';
+import sweData from '../src/data/json/courses.json';
 import { execCommandsAndCommit } from './utils';
 
 const srcPath = path.join(__dirname, '..', 'src');

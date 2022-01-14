@@ -3,7 +3,7 @@
  */
 import { Styles } from 'react-jss';
 import Color from 'color';
-import { lbIconColor, green } from '../../theme';
+import { lbIconColor, lightGreen } from '../../theme';
 
 export default {
   link: {
@@ -30,7 +30,7 @@ export default {
     right: '4px',
     top: '4px',
     fontSize: '0.8em',
-    backgroundColor: green,
+    backgroundColor: lightGreen,
     borderRadius: '4px',
     color: '#111',
     padding: '1px 2px',

@@ -6,17 +6,17 @@
   },
   "semesters": [
     {
-      "name": "Smart devices supervized by Jérémie Grisolia",
+      "name": "Smart devices by Jérémie Grisolia",
       "dates": {
         "start": "",
         "end": ""
       },
       "courses": [
         {
-          "courseName": "Microcontrollers and Open Source Hardware (MOSH)",
+          "courseName": "Microcontrollers & Open-Source Hardware, Embedded IA (M&OSH)",
           "sections": [
             {
-              "title": "Jérémie Grisolia, Sylvaine Lohez",
+              "title": "J. Grisolia, S. Lohez",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -34,10 +34,10 @@
           ]
         },
         {
-          "courseName": "Manufacturing and integration of nano-technology sensors",
+          "courseName": "CAD, Manufacturing & Integration of Nano-Technology Sensors (AIME)",
           "sections": [
             {
-              "title": "Jérémie Grisolia, Sébastien Lachaize, Xavier Hébras",
+              "title": "J. Grisolia",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -45,7 +45,7 @@
               }
             },
             {
-              "title": "15.45 hours",
+              "title": "14 hours",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -58,7 +58,7 @@
           "courseName": "Sensors Introduction",
           "sections": [
             {
-              "title": "Jérémie Grisolia",
+              "title": "J. Grisolia",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -76,10 +76,10 @@
           ]
         },
         {
-          "courseName": "Analog electronics labs",
+          "courseName": "Analog Electronics Labs",
           "sections": [
             {
-              "title": "Jean-Louis Noullet",
+              "title": "J. Grisolia",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -87,7 +87,7 @@
               }
             },
             {
-              "title": "3.75 hours",
+              "title": "2.5 hours",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -106,10 +106,10 @@
       },
       "courses": [
         {
-          "courseName": "Protocols for connected objects",
+          "courseName": "Protocols for Connected Objects",
           "sections": [
             {
-              "title": "Slim Abdellatif, Daniela Dragomirescu, Etienne Sicard",
+              "title": "S. Abdellatif, D. Dragomirescu, E. Sicard",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -127,10 +127,10 @@
           ]
         },
         {
-          "courseName": "Digital wireless communication for connected objects",
+          "courseName": "Energy for Connected Objects (recovery, transfert)",
           "sections": [
             {
-              "title": "Alexandre Boyer",
+              "title": "JM. Dilhac",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -138,7 +138,7 @@
               }
             },
             {
-              "title": "5 hours",
+              "title": "10.25 hours",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -148,10 +148,10 @@
           ]
         },
         {
-          "courseName": "Energy for connected objects",
+          "courseName": "Security for Network of Connected Objects",
           "sections": [
             {
-              "title": "Jean-Marie Dilhac",
+              "title": "E. Alata",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -159,7 +159,7 @@
               }
             },
             {
-              "title": "7.5 hours",
+              "title": "10.25 hours",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -169,31 +169,10 @@
           ]
         },
         {
-          "courseName": "Security for network of connected objects",
+          "courseName": "Emerging Networks (SDN, NGN)",
           "sections": [
             {
-              "title": "Eric Alata, Vincent Nicomette",
-              "url": "",
-              "progress": {
-                "completed": 1,
-                "total": 1
-              }
-            },
-            {
-              "title": "7.5 hours",
-              "url": "",
-              "progress": {
-                "completed": 1,
-                "total": 1
-              }
-            }
-          ]
-        },
-        {
-          "courseName": "Emerging networks",
-          "sections": [
-            {
-              "title": "Slim Abdellatif",
+              "title": "S. Abdellatif",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -220,31 +199,10 @@
       },
       "courses": [
         {
-          "courseName": "oneM2M Hackathon",
-          "sections": [
-            {
-              "title": "Thierry Monteil",
-              "url": "",
-              "progress": {
-                "completed": 1,
-                "total": 1
-              }
-            },
-            {
-              "title": "? hours",
-              "url": "",
-              "progress": {
-                "completed": 1,
-                "total": 1
-              }
-            }
-          ]
-        },
-        {
           "courseName": "Service Oriented Architecture",
           "sections": [
             {
-              "title": "Nawal Guermouche",
+              "title": "N. Guermouche",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -265,7 +223,7 @@
           "courseName": "Middleware for IoT",
           "sections": [
             {
-              "title": "Thierry Monteil",
+              "title": "T. Monteil",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -283,10 +241,10 @@
           ]
         },
         {
-          "courseName": "Cloud & autonomic management",
+          "courseName": "Adaptability: Cloud & Autonomic Management",
           "sections": [
             {
-              "title": "Sami Yangui",
+              "title": "S. Yangui",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -306,7 +264,7 @@
       ]
     },
     {
-      "name": "Data analysis & Business applications by Nawal Guermouche",
+      "name": "Analysis & Data Processing, Business Applications by Nawal Guermouche",
       "dates": {
         "start": "",
         "end": ""
@@ -316,7 +274,7 @@
           "courseName": "Software Engineering",
           "sections": [
             {
-              "title": "Nawal Guermouche",
+              "title": "N. Guermouche",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -334,10 +292,10 @@
           ]
         },
         {
-          "courseName": "Semantic data",
+          "courseName": "Semantic Data",
           "sections": [
             {
-              "title": "Nathalie Hernandez",
+              "title": "N. Hernandez",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -355,10 +313,10 @@
           ]
         },
         {
-          "courseName": "Big data",
+          "courseName": "Big Data",
           "sections": [
             {
-              "title": "Gilles Tredan",
+              "title": "G. Tredan",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -367,6 +325,27 @@
             },
             {
               "title": "15 hours",
+              "url": "",
+              "progress": {
+                "completed": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "courseName": "oneM2M Hackathon",
+          "sections": [
+            {
+              "title": "T. Monteil",
+              "url": "",
+              "progress": {
+                "completed": 1,
+                "total": 1
+              }
+            },
+            {
+              "title": "8.25 hours",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -385,10 +364,10 @@
       },
       "courses": [
         {
-          "courseName": "Project",
+          "courseName": "Innovative Project",
           "sections": [
             {
-              "title": "Vincent Migliore",
+              "title": "T. Monteil",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -396,7 +375,7 @@
               }
             },
             {
-              "title": "? hours",
+              "title": "37.5 hours",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -409,7 +388,7 @@
           "courseName": "English",
           "sections": [
             {
-              "title": "Joseph Shea",
+              "title": "J. Shea",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -417,7 +396,7 @@
               }
             },
             {
-              "title": "? hours",
+              "title": "30 hours",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -430,7 +409,7 @@
           "courseName": "Portfolio",
           "sections": [
             {
-              "title": "Vincent Migliore",
+              "title": "V. Migliore",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -438,7 +417,7 @@
               }
             },
             {
-              "title": "? hours",
+              "title": "8.25 hours",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -449,7 +428,6 @@
         }
       ]
     },
-    
     {
       "name": "Innovation & Humanity by Hélène Hereng",
       "dates": {
@@ -461,7 +439,49 @@
           "courseName": "Innovation",
           "sections": [
             {
-              "title": "Eric Jolivet",
+              "title": "E. Jolivet",
+              "url": "",
+              "progress": {
+                "completed": 1,
+                "total": 1
+              }
+            },
+            {
+              "title": "17.5 hours",
+              "url": "",
+              "progress": {
+                "completed": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "courseName": "Creativity Methods (TRIZ Method)",
+          "sections": [
+            {
+              "title": "S. Negny",
+              "url": "",
+              "progress": {
+                "completed": 1,
+                "total": 1
+              }
+            },
+            {
+              "title": "10 hours",
+              "url": "",
+              "progress": {
+                "completed": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "courseName": "Team Management & Social Acceptability",
+          "sections": [
+            {
+              "title": "N. Lacune, MJ. Tragin",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -479,10 +499,10 @@
           ]
         },
         {
-          "courseName": "Creativity methods (TRIZ)",
+          "courseName": "Sport",
           "sections": [
             {
-              "title": "Stéphane Negny",
+              "title": "V. Gros, S. Rossard",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -490,7 +510,7 @@
               }
             },
             {
-              "title": "10 hours",
+              "title": "21.5 hours",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -500,10 +520,10 @@
           ]
         },
         {
-          "courseName": "Social psychology",
+          "courseName": "Individualized Professionnal Development (PPI)",
           "sections": [
             {
-              "title": "Olivier Lecoq-Kromwel",
+              "title": "T. Dupont",
               "url": "",
               "progress": {
                 "completed": 1,
@@ -511,70 +531,7 @@
               }
             },
             {
-              "title": "10 hours",
-              "url": "",
-              "progress": {
-                "completed": 1,
-                "total": 1
-              }
-            }
-          ]
-        },
-        {
-          "courseName": "Team Management",
-          "sections": [
-            {
-              "title": "Nicole Lacube",
-              "url": "",
-              "progress": {
-                "completed": 1,
-                "total": 1
-              }
-            },
-            {
-              "title": "10 hours",
-              "url": "",
-              "progress": {
-                "completed": 1,
-                "total": 1
-              }
-            }
-          ]
-        },
-        {
-          "courseName": "Sports",
-          "sections": [
-            {
-              "title": "Véronique Gros, Sylvie Rossard",
-              "url": "",
-              "progress": {
-                "completed": 1,
-                "total": 1
-              }
-            },
-            {
-              "title": "25 hours",
-              "url": "",
-              "progress": {
-                "completed": 1,
-                "total": 1
-              }
-            }
-          ]
-        },
-        {
-          "courseName": "Individual professionnal development (PPI)",
-          "sections": [
-            {
-              "title": "Quentin Marechal",
-              "url": "",
-              "progress": {
-                "completed": 1,
-                "total": 1
-              }
-            },
-            {
-              "title": "10 hours",
+              "title": "8.5 hours",
               "url": "",
               "progress": {
                 "completed": 1,

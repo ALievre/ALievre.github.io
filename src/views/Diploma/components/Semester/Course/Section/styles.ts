@@ -2,7 +2,7 @@
  * Book component styles.
  */
 import { Styles } from 'react-jss';
-import { bgLightBlue, green } from '../../../../../../theme';
+import { bgLightBlue, progressColor } from '../../../../../../theme';
 
 export default {
   toolTip: {
@@ -23,7 +23,7 @@ export default {
     width: '20px',
     '@global': {
       '.CircularProgressbar-path': {
-        stroke: green,
+        stroke: progressColor,
         strokeLinecap: 'butt',
       },
       '.CircularProgressbar-trail': {

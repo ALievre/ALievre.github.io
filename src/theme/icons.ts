@@ -24,10 +24,14 @@ import {
   faComments,
   faListAlt,
   faTable,
+  faCar,
+  faSeedling,
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
   fab,
+  faCar,
+  faSeedling,
   faEnvelope,
   faFilePdf,
   faHome,

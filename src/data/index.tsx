@@ -2,7 +2,7 @@ import React from 'react';
 import Greeter from '../views/Greeter';
 import Diploma from '../views/Diploma';
 import { PageLink, TabLink } from '../models';
-import { jsOrange, midBlue, green, red, darkOrange, lbIconColor, cyan, purple } from '../theme/colors';
+import { jsOrange, midBlue, lightGreen, red, darkOrange, lbIconColor, cyan, purple, green, yellowVitesco } from '../theme/colors';
 
 import staticData from './json/static.json';
 import contactData from './json/contact.json';
@@ -71,7 +71,7 @@ export const tabs: TabLink[] = [
     mdFileName: 'info',
   },
   {
-    name: 'smartdevices.ino',
+    name: 'smartdevice.ino',
     url: '/smart_devices',
     icon: 'microchip',
     color: cyan,
@@ -85,6 +85,13 @@ export const tabs: TabLink[] = [
     mdFileName: 'communication',
   },
   {
+    name: 'data.py',
+    url: '/analysis',
+    icon: ['fab', 'python'],
+    color: lightGreen,
+    mdFileName: 'analysis',
+  },
+  {
     name: 'middleware.js',
     url: '/middleware_service',
     icon: ['fab', 'js'],
@@ -92,17 +99,10 @@ export const tabs: TabLink[] = [
     mdFileName: 'middleware_service',
   },
   {
-    name: 'data.py',
-    url: '/analysis',
-    icon: ['fab', 'python'],
-    color: green,
-    mdFileName: 'analysis',
-  },
-  {
-    name: 'hackathon.js',
+    name: 'hackathon.om2m',
     url: '/hackathon',
-    icon: ['fab', 'js'],
-    color: jsOrange,
+    icon: 'seedling',
+    color: green,
     mdFileName: 'hackathon',
   },
   {
@@ -111,12 +111,20 @@ export const tabs: TabLink[] = [
     icon: 'lightbulb',
     color: purple,
     mdFileName: 'innovation_humanity',
-  },{
-    name: 'projects.io',
+  },
+  {
+    name: 'project.io',
     url: '/projects',
     icon: 'code-branch',
     color: midBlue,
     mdFileName: 'projects_portfolio',
+  },
+  {
+    name: 'internship.can',
+    url: '/internship',
+    icon: 'car',
+    color: yellowVitesco,
+    mdFileName: 'internship',
   },
   {
     name: 'cv.pdf',
@@ -124,12 +132,5 @@ export const tabs: TabLink[] = [
     icon: 'file-pdf',
     color: red,
     mdFileName: 'cv',
-  },
-  {
-    name: 'contact.md',
-    url: '/contact',
-    icon: ['fab', 'markdown'],
-    color: lbIconColor,
-    mdFileName: 'contact',
   }
 ];

@@ -1,24 +1,16 @@
 ### Some of the projects I've worked on so far
 
-- [turali.js.org](https://turali.js.org/)
+- [Git Hackathon](https://github.com/ALievre/Hackathon)
 
-  - The web app you are currently looking at.
-  - `React`, `TypeScript`
+- [Hackser.io Hackathon](https://www.hackster.io/haka/keti-hackathon-smart-crop-monitoring-and-growth-management-877d14) 
 
-- [GetKernel](https://getkernel.now.sh/) \[_Half-baked_\]
+- [Git SOA](https://github.com/Assianguyen/SOA_Project)
 
-  - The kernel store for Ubuntu derivatives.
-  - `NextJS`
+- [Git BigData](https://github.com/ALievre/BigData)
 
-- [deepintr.js.org](https://deepintr.js.org/)
+- [Git RTK](https://github.com/ALievre/RTK_project)
 
-  - Landing page for an online community.
-  - `GatsbyJS`, `React`, `TypeScript`
-
-- [Girizgah](https://turali.js.org/girizgah/)
-
-  - Greeter (LightDM Webkit) theme for Pardus Linux.
-  - `React`
+- [Smart Devices Git](https://github.com/MOSH-Insa-Toulouse/2021_2022_LIEVRE_NGUYEN)
 
 - [Piyango.online](https://piyango.online/) \[_Abandoned_\]
 
@@ -26,20 +18,7 @@
   - Similar to _Bilen Adam_, which is listed below.
   - `React`, `TypeScript`, `Serverless Functions`
 
-- [Astroloci](https://play.google.com/store/apps/details?id=com.astroloci.app)
-
-  - A horoscope application for Android.
-  - `Java`, `Express.js`
-
-- [Bilen Adam](https://play.google.com/store/apps/details?id=com.caglarturali.bilenadam)
-
-  - Lottery machine for Turkey's national lottery games.
-  - `C#`, `Unity 3D`
-
-- [2●48](https://play.google.com/store/apps/details?id=com.caglarturali.the2o48)
-
-  - A clone of the popular puzzle game 2048, with unlimited levels.
-  - `C#`, `Unity 3D`
+- [Astroloci](https://play.google.com/store/apps/details?id=com.astroloci.app) \[_Half-baked_\]
 
 - [WatcherCatBot](https://github.com/caglarturali/WatcherCatBot/)
 
