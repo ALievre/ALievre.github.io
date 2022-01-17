@@ -123,19 +123,19 @@ The entire 5ISS semester is centered around a large scale project. It brings tog
     </tr>
     <tr>
        <td style="border: 1px #42a5f5 solid;">Implement a prototype to solve the problem</td>
-       <td style="border: 1px #42a5f5 solid;">3</td>
+       <td style="border: 1px #42a5f5 solid;">4</td>
        <td style="border: 1px #42a5f5 solid;">4</td>
        <td style="border: 1px #42a5f5 solid;">IT + PE</td>
     </tr>
     <tr>
        <td style="border: 1px #42a5f5 solid;">Present and debate (in English) the technical choice made</td>
-       <td style="border: 1px #42a5f5 solid;">3</td>
+       <td style="border: 1px #42a5f5 solid;">4</td>
        <td style="border: 1px #42a5f5 solid;">4</td>
        <td style="border: 1px #42a5f5 solid;">IT + ST</td>
     </tr>
     <tr>
        <td style="border: 1px #42a5f5 solid;">Produce a report (in English) for the developed project</td>
-       <td style="border: 1px #42a5f5 solid;">3</td>
+       <td style="border: 1px #42a5f5 solid;">4</td>
        <td style="border: 1px #42a5f5 solid;">4</td>
        <td style="border: 1px #42a5f5 solid;">IT + ST</td>
     </tr>
@@ -147,13 +147,13 @@ The entire 5ISS semester is centered around a large scale project. It brings tog
     </tr>
     <tr>
        <td style="border: 1px #42a5f5 solid;">Reflect upon my training process and methods</td>
-       <td style="border: 1px #42a5f5 solid;">3</td>
+       <td style="border: 1px #42a5f5 solid;">4</td>
        <td style="border: 1px #42a5f5 solid;">4</td>
        <td style="border: 1px #42a5f5 solid;">IT + PE</td>
     </tr>
     <tr>
        <td style="border: 1px #42a5f5 solid;">Be able to put forward my training experiences, whether they be explicit or implicit</td>
-       <td style="border: 1px #42a5f5 solid;">3</td>
+       <td style="border: 1px #42a5f5 solid;">4</td>
        <td style="border: 1px #42a5f5 solid;">4</td>
        <td style="border: 1px #42a5f5 solid;">IT</td>
     </tr>

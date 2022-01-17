@@ -3,14 +3,13 @@
 SUPERVIZOR: DANIELA DRAGOMIRESCU
 
 <p style="text-indent: 2%; text-align: justify;">
-    Connected objects rely on communication protocols. Standards like 5G are what dictate innovation, so it is important for us to be aware of the main technologies used today. In this course, we will study protocols (LoRa, Zigbee, Sigfox, ...) but also energy problematics or wireless radio methods and security.
+    Communication protocols are one of the bases of connected objects. Innovation happens with new standards appearing everyday like 5G. It is important for us to be aware of the main technologies used today. In this course, we studied protocols (LoRa, Zigbee, Sigfox, NB-IoT, ...) but also energy problematics, wireless radio methods and security.
 </p>
 
 <details>
     <summary style="color: #9599a0">Description</summary>
     <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-        The communication course or module officially gathers five classes, but it actually regrouped about eight. It is a very dense module with a lot of different subjects approached, having the domain of Internet of Things in common. The main problematics of IoT, like battery usage, wireless communication, or security are what dictates the syllabus of this module. A complete picture of communication for IoT is depicted, studying present of future technologies.
-        You can find a quick summary of the courses content in the adjacent table. The next subsection will focus on one of the most relevent experiences in more detail: the Software Defined Radio (SDR) hands-on we did during the labs.
+        The communication module gathers five classes This module is very dense since it deals with a lot of subjects all centered around the Internet of Things. IoT have many problematics: battery, wireless communication, or security. These problematics are studied in the classes of this module. We have the full picture of communication for IoT. You can find a quick summary of the courses content in the adjacent table. The next subsection will focus on one of the most relevant experiences: the Software Defined Radio (SDR) labs.
     </p>
     <table style="border-collapse: collapse; border: 1px #9599a0 solid; text-align: center; margin-left: 2%;">
     <tr style="border: 1px #9599a0 solid; background-color: #9599a0; color: #282c34; font-weight: bold;text-align: center; padding: 10px;">
@@ -42,20 +41,10 @@ SUPERVIZOR: DANIELA DRAGOMIRESCU
     <details style="text-indent: 10%;">
         <summary style="color: #9599a0">Experimentation with Software Defined Radio</summary>
         <p style="text-indent: 10%; margin-left: 10%; text-align: justify;">
-            The main experience I retained from this module is also the first one we encountered. Before having any theoretical lectures about protocols, wireless modulation, or constraints for IoT, we jumped into this series of labs that focused on Softare Defined Radios (abbreviated SDR).
+            The main experience I retained from this module is the series of labs that focused on Software Defined Radios (abbreviated SDR). SDR are used to replace hardware component for frequency shift, demodulation, and other operations to receive FM signal. A single device process all these tasks and the signal is decoded through software.
         </p>
         <p style="text-indent: 10%; margin-left: 10%; text-align: justify;">
-            The point of SDR is to replace the use of hardware components for frequency shift, demodulation, and other key operations to receive a FM signal. All these tasks are made by a single device, and all the decoding part of the signal is done through software.
-        </p>
-        <p style="text-indent: 10%; margin-left: 10%; text-align: justify;">
-            In the three labs, we first looked at the theory behind decoding a FM signal, and then used Gnuradio, a well-known tool for SDR, to exploit an incoming radio signal.
-        </p>
-        <p style="text-indent: 10%; margin-left: 10%; text-align: justify;">
-            The idea was to take as input a real music radio signal (actually, it was not live radio signal but rather a previously recorded sample) and try to get the audio from the source.
-        </p>
-        <p style="text-indent: 10%; margin-left: 10%; text-align: justify;">
-            To do so, we implemented different treatment elements, like a frequency shifter, band-pass filters to deal with noise, or even frequency demodulators. Everything is done through software, by inputting the correct parameters and variables for pre-defined Gnuradio blocks that you just have to link together in the correct way to decode the signal.
-            After multiple treatment steps, we were able to retrieve a clean audio signal that we could listen to. You can consult the entire technical report, with a first part about the mathematical theory between FM demodulation & decoding, and then the practical part and the detailed work on gnuradio. Just click on the link below to view the report.
+            During three labs, we learned the theory behind decoding a FM signal. Then, we used GNUradio to manipulate a radio signal. The goal was to try to get the audio from a recorded radio signal. To do so, we used different treatment elements like frequency shifters, band-pass filters, frequency demodulators, and more. The signal treatment is done entirely with the software. The software is easy to use since you have blocks that you have to link together with the correct parameters. After different treatment steps, we were able to decode the signal and thus, to retrieve a clean audio signal. I think it was a clever way of doing the lab because it was exciting to try to decode the signal and very rewarding to have the result and to listen to the audio. You can consult the report on the like below:
         </p>
     </details>
 </details>
@@ -63,42 +52,43 @@ SUPERVIZOR: DANIELA DRAGOMIRESCU
 <details>
     <summary style="color: #9599a0">Technical challenges</summary>
      <p style="text-indent: 10%; margin-left: 10%; text-align: justify;">
-            As two classes fom this module were purely informative lectures: Energy for IoT & Security in IoT, I decided to not include them in this technical part, as it was difficult for me to find good technical challenges to write about them.
+            The main challenge of this module was the number of deliverables and assignments we had to produce.
         </p>
     <details style="text-indent: 2%;">
         <summary style="color: #9599a0">Protocols for connected objects</summary>
         <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            There were a lot of assignments and deliverables in the protocols for connected objects: we conducted a deep study of the MAC layer options for IoT, I presented a research presentation about the conflict between Donald Trump and Huawai over the Android Operating System, but I chose to retain an assignment that also made me reasearch security for IoT, as I would not be mentionning the problematic here otherwise, and it feels like a really important one to me.
+            In groups of three, we had to present different protocols for Wireless Sensor Network, e.g., LoRA, Sigfox, BLE, ZigBee, NB-IoT or M2M. My group chose to study NB-IoT. It was difficult to find information about the protocol we chose. Certain characteristics were easy to understand thanks to online documentation. However, when we had to find precise information e.g., value of the radio range in a real environment, we ended up doing a lot of unsuccessful research.
         </p>
         <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-           As part of a group of three students, I had to conduct a deep study of the Zigbee protocol. The idea was that the whole class would present different protocols, notably Zigbee, BLE, Sigfox, Lora and NB-IoT, and then we would do a big comparison on these to try and sort them in different categories. 
-        </p>
-        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            This task was challenging for me, because I do not really have a huge affinity and ease with communication and networking. However, there are a lot of resources available online that help to understand the core concepts of the standard, but also some deeper constraints like energy consumption or security details.
-        </p>
-        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            Speaking of security, I was in charge of this subject for the presentation. I had to explain in a simple, understandable way, the complex concepts of cryptography or symmetric-based key authentification, but also some network security notions that I was less at-ease with. In the end, watching the presentation of other protocols helped me understand the one I was working on a bit more, as there are a lot of similarities that make the choices made by one standard easier to understand and identify.
-        </p>
-    </details>
-    <br>
-    <details style="text-indent: 2%;">
-        <summary style="color: #9599a0">Digital wireless communication for connected objects</summary>
-        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            The assignment and technical difficulty of the Wireless communicaton class felt pretty similar to the previous one. After folling the six lectures on the topic, we had to conduct a quick study followed by a report on one of two protocols: Sigfox or Bluetooth Low Energy (BLE). I chose to work on Sigfox with my group. We mainly studied wireless communication problematics, such as modulation, range of emission or datarate.
-        </p>
-        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            It was difficult to find some of the information we were looking for. For certain elements, the official Sigfox documentation was really clear and helped us understand clearly what the protocol was offering. However, when we had to find some key characteristics such as a precise value of the radio range in a real environment, we had to do a lot of research and ended up estimating it ourselves using modelisation laws.
+           This assignment was also challenging for me because I am not really at ease with communication and networking. Thankfully, since I was not alone to do this, I was able to understand a little bit more thanks to my teammates. Watching the presentation of other protocols also helped me understand the one I was working on a bit more, as there are a lot of similarities between the different protocols. We also conducted a deep study of the MAC layer options for IoT. This assignment was challenging for me as well. Thankfully, there are a lot of resources online that helped me understand the different concepts.
         </p>
     </details>
     <br>
     <details style="text-indent: 2%;">
         <summary style="color: #9599a0">Emerging networks</summary>
         <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            The Emerging networks class was the only class apart from SDR that proposed laboratories in this module. The theme of the class was mostly to present and explain how Software Defined Networks (SDN) worked and have us manipulate them. During the lab, the challenge was to actually use SDN technologies, notably Openflow switchs. It consisted in using a networking application that would dynamically and automatically write rules in switches routing tables depending on the topology of the network, its current state and the traffic going through nodes.
+            In this class, we learned how Software Defined Networks (SDN) worked. We participated in labs to manipulate them. The SDN technology we used was OpenFlow switches. This technology uses a networking application which dynamically and automatically writes rules in switching routing tables. These rules are written depending on the topology of the network, its current state, and the traffic. The challenge was to understand the concept and implement it on a network.
         </p>
+    </details>
+    <br>
+    <details style="text-indent: 2%;">
+        <summary style="color: #9599a0">From 3G to 5G</summary>
         <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            There was also a real technical challenge during the last two lecture sessions, where we had to study a scientific paper about a protocol implementing SDN over the 6LoWPAN technology. It was really technical, going deep in the functioning and different functionalities of the protocol, but I feel that the work previously accomplished during the lectures and the labs helped me understand it well enough.
-            We had to write a report about this article, however the deadline for this assignment is later than the one of this portfolio, so I am unable to add it to this page at the moment. It may be added after it is delivered depending on INSA politics on deliverables.
+            For this course, we had to present a topic about 5G in teams of two. With my partner, we chose “5G and smart cities”. We found a lot of information online, but the main challenge was to select the right data. We also did not know how technical the presentation had to be.
+        </p>
+    </details>
+    <br>
+    <details style="text-indent: 2%;">
+        <summary style="color: #9599a0">Energy for IoT</summary>
+        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
+            In this class, we had different lab session: one lab session about electromagnetic energy harvesting and wireless power transfer and two lab sessions at the AIME. During the first one, the main challenge was the equipment. In fact, we could not finish the rectifier characterization since the rectifiers were not working. We finished the session by watching the professor do the manipulations because of faulty equipment.
+        </p>
+    </details>
+    <br>
+    <details style="text-indent: 2%;">
+        <summary style="color: #9599a0">Security for IoT</summary>
+        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
+            The deliverable for this course was a security assessment for our Innovative project. The main challenge was to study a countermeasure with ProVerif. Implementing the code was difficult because we were not acquainted with this method.
         </p>
     </details>
 </details>
@@ -109,13 +99,13 @@ SUPERVIZOR: DANIELA DRAGOMIRESCU
     <details style="text-indent: 2%;">
         <summary style="color: #9599a0">Self-evaluation with the skills matrix</summary>
         <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            As I expressed in the previous sections, the Communication module was really dense. It contained a lot of classes, with a huge amount of information and assignments. The skills in the matrix are separated into two sub-sections, and the first one of the two is heavily loaded, which represents well the amount that was presented and needed to be acquired in the few weeks that this module took place in.
+            As I said in the Technical Challenge section, the module was vast and dense. The number of classes gave us a lot of information and assignments at the same time. As you can see in the skill matrix, the first section is heavily loaded. This represents the amount of work and skills required in a few weeks.
         </p>
         <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            For the Protocols of communication classes, I feel like I reached the expected level, but did not have enough time to go over it and reach a comfortable level in all subjects presented. Having already had quite a lot of network classes in third and fourth year at INSA, I feel like my previous training prepared me quite well to the classes. I feel like I really understand the current state of IoT standards, the direction where they are going and how the domain is going to evolve in the upcoming years. I felt a little bit less at ease with purely techincal skills, wether they are energy constraints, or complex RF reception techniques. However, I think that almost all students except those who followed Network and Communication in fourth year were in the same situation than I was in, so a lot of peer exchance made it possible for everyone to understand the main concepts approached.
+            For the Communication Protocols course, I do not feel that I reached the expected level. I think I did not have enough time to study this class. I felt overwhelmed by the amount of information we were given. This module was clearly not my strength. I still think that I understand the general overview of IoT standards, but I am not really at ease with more technical skills concerning the energy or complex reception process. I think that a lot of students were in a similar situation. We exchanged a lot to try to understand the main concepts of this class.
         </p>
         <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            As for the Security for IoT class, it focused on a subject that I really like and research on my own personal free-time, so I had no real difficulty understanding the main concepts. Also, I think that the class, with only 6 lectures staying at a relatively surface level, did not go as far as it was maybe intended, so it can be harder tu judge the skills acquired during the lectures. Overall, I think that the initial training, along with my previous knowledge, helped me reach the required level.
+            For the Emerging Networks class, I think that the labs really helped me acquire the skills I needed to reach the expected level. I could manipulate the technology which is my favorite way of learning. I can say the same for the Energy for IoT class.
         </p>
         <br>
         <table style="border-collapse: collapse; border: 1px #9599a0 solid; text-align: center; margin-left: 2%;">
@@ -129,45 +119,33 @@ SUPERVIZOR: DANIELA DRAGOMIRESCU
        <td style="border: 1px #abb2bf solid; background-color: #abb2bf; color: #282c34" colspan="4">Protocols & Communication</td>
     </tr>
     <tr>
-       <td style="border: 1px #9599a0 solid;">Understand the major development phases for mobile communications and development of the associated technology</td>
+       <td style="border: 1px #9599a0 solid;">Understand and master the new mobile networks technologies</td>
        <td style="border: 1px #9599a0 solid;">4</td>
        <td style="border: 1px #9599a0 solid;">4</td>
        <td style="border: 1px #9599a0 solid;">IT</td>
     </tr>
     <tr>
-       <td style="border: 1px #9599a0 solid;">Understand the impact of new mobile technology</td>
+       <td style="border: 1px #9599a0 solid;">Be able to analyse and evaluate protocoles dedicated to Wireless Sensor Networks/IoT</td>
        <td style="border: 1px #9599a0 solid;">4</td>
-       <td style="border: 1px #9599a0 solid;">4</td>
+       <td style="border: 1px #9599a0 solid;">3</td>
        <td style="border: 1px #9599a0 solid;">IT</td>
     </tr>
     <tr>
-       <td style="border: 1px #9599a0 solid;">Be able to analyse and evaluate optimal wireless network technologies</td>
-       <td style="border: 1px #9599a0 solid;">3</td>
-       <td style="border: 1px #9599a0 solid;">3</td>
+       <td style="border: 1px #9599a0 solid;">Understand and master the fundamentals of emerging network paradigms applied to IoT</td>
+       <td style="border: 1px #9599a0 solid;">4</td>
+       <td style="border: 1px #9599a0 solid;">4</td>
        <td style="border: 1px #9599a0 solid;">IT + PE</td>
     </tr>
     <tr>
-       <td style="border: 1px #9599a0 solid;">Be able to suggest optimal technological solutions for IoT networks</td>
+       <td style="border: 1px #9599a0 solid;">Understand and master the optimisation of IoT communication protocols at MAC level</td>
        <td style="border: 1px #9599a0 solid;">4</td>
-       <td style="border: 1px #9599a0 solid;">4</td>
+       <td style="border: 1px #9599a0 solid;">2</td>
        <td style="border: 1px #9599a0 solid;">IT</td>
     </tr>
     <tr>
-       <td style="border: 1px #9599a0 solid;">Understand and master optimisation of communication protocols for IoT with respect to energy limitations</td>
-       <td style="border: 1px #9599a0 solid;">3</td>
-       <td style="border: 1px #9599a0 solid;">3</td>
-       <td style="border: 1px #9599a0 solid;">IT + PE</td>
-    </tr>
-    <tr>
-       <td style="border: 1px #9599a0 solid;">Understand and master optimisation of communication protocols with respect to security concerns</td>
+       <td style="border: 1px #9599a0 solid;">Understand and master the security mechanismes of IoT communication protocols</td>
        <td style="border: 1px #9599a0 solid;">4</td>
        <td style="border: 1px #9599a0 solid;">4</td>
-       <td style="border: 1px #9599a0 solid;">IT</td>
-    </tr>
-    <tr>
-       <td style="border: 1px #9599a0 solid;">Know the main processing techniques used for digital communication and know how to explain the basic structure of digital RF transmitter-receiver</td>
-       <td style="border: 1px #9599a0 solid;">3</td>
-       <td style="border: 1px #9599a0 solid;">3</td>
        <td style="border: 1px #9599a0 solid;">IT + PE</td>
     </tr>
     <tr>
@@ -176,57 +154,20 @@ SUPERVIZOR: DANIELA DRAGOMIRESCU
        <td style="border: 1px #9599a0 solid;">4</td>
        <td style="border: 1px #9599a0 solid;">IT</td>
     </tr>
-    <tr style="border: 1px #9599a0 solid; background-color: #9599a0;">
-        <td colspan="4"></td>
-    </tr>
-    <tr>
-       <td style="border: 1px #abb2bf solid; background-color: #abb2bf; color: #282c34" colspan="4">Security for IoT Networks</td>
-    </tr>
-    <tr>
-       <td style="border: 1px #9599a0 solid;">Understand the fundamentals of security</td>
-       <td style="border: 1px #9599a0 solid;">3</td>
-       <td style="border: 1px #9599a0 solid;">4</td>
-       <td style="border: 1px #9599a0 solid;">IT + ST</td>
-    </tr>
-    <tr>
-       <td style="border: 1px #9599a0 solid;">Be able to identify security weaknesses in an IoT architecture</td>
-       <td style="border: 1px #9599a0 solid;">3</td>
-       <td style="border: 1px #9599a0 solid;">3</td>
-       <td style="border: 1px #9599a0 solid;">IT + PE</td>
-    </tr>
-    <tr>
-       <td style="border: 1px #9599a0 solid;">Be able to assess the impact of exploiting a security vulnerability in an IoT architecture</td>
-       <td style="border: 1px #9599a0 solid;">3</td>
-       <td style="border: 1px #9599a0 solid;">3</td>
-       <td style="border: 1px #9599a0 solid;">IT</td>
-    </tr>
-    <tr>
-       <td style="border: 1px #9599a0 solid;">Be able to propose adequate security counter-measures</td>
-       <td style="border: 1px #9599a0 solid;">4</td>
-       <td style="border: 1px #9599a0 solid;">4</td>
-       <td style="border: 1px #9599a0 solid;">IT + ST</td>
-    </tr>
     </table>
     </details>
     <br>
     <details style="text-indent: 2%;">
         <summary style="color: #9599a0">General review and feedback on the course</summary>
         <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            Overall, this course was the last one of the year for me and everyone else. It came at the very end of the semester, where we were already rushed by projects and deliverables deadlines. So, it was not the best environment to start a new class, and I feel like maybe it missed the mark on some points for me. The chosen way of teaching was through student presentations. This was really interesting because it is pretty rare to use the tecnique that much in such a technical module. As we've discussed in the data analysis of ISS, there were 8 deliverables on the form of reports and presentations. This was a lot, and at this late time period, I believe too much for me and the other students to fully invest in them.
+            This module was very vast. We tried to overview a lot of notions in a few weeks and workload was heavy. I feel that I had not enough time to fully understand the concepts and technologies presented to me. The teaching method through student presentations was good because it offers an interesting point of view on the technologies, but it was also not very optimal because we were unsure about the information given.
         </p>
         <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            Indeed, I had the feeling that I had to rush most assignments, and maybe not spend as much time as needed to fully understand the concepts and technologies that I was studying.
+            I think it is too bad to have the AIME labs of Energy for IoT on the last week even though I know that the time schedule is tight in ISS. Also, we could have been more prepared for the first lab of Energy if we had a tutorial session before to go over the theoretical part. Moreover, I think that it would be great to have tutorials or labs for the Security for IoT class to have a better understanding of the notions covered.
         </p>
         <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            Along with that, the Energy and Security classes felt disconnected from the rest, being just isolated lectures that did not resonate with everything else. I know the schedule of ISS is pretty full already, but I feel like adding tutorials or laboratories, at least for the security class, would be a huge improvement for the class.
+            Regardless of all that, I enjoyed this module. It deconstructs the IoT into different categories to try to give us a clear and pretty exhaustive picture of the state of Internet of Thing today. It gave me a certain understanding of IoT that I did not have before. IoT was not the main reason I chose ISS but I know now that this area has a lot of fascinating possibilities for the future.
         </p>
-        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            Still, what I really enjoyed about this module is that it approached IoT through a variety of angles, both technical and non-techincals, to give us a clear and pretty exhaustive picture of the state of Internet of Thing today. Prior to this module, I did not have a clear understanding and knowledge of IoT, its possibilites and limitations. Even if we did not go too far in technical details for some domains, I still retained a lot of information that will be critical to stay on par with the evolution of the industry in the upcoming years.
-        </p>
-        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            I did not choose ISS because of its focus on IoT, to be frank I was pretty indifferent about the domain before going into this module. However, we have seen a lot of possibilities that the domain seems to offer for the future, and it is pretty fascinating to explore all the possible outcomes.
-        </P>
-        <br>
     </details>
 </details>
 

@@ -3,16 +3,13 @@
 SUPERVIZOR: NAWAL GUERMOUCHE
 
 <p style="text-indent: 2%; text-align: justify;">
-    With more and more connected objects and smart systems come a hug amount of data. Working on exploiting data and bringing value to it is a key problematic to this course. In it, we will study big data and plotting methods, as well as semantic web for connected objects, using web technologies to enrich data coming from sensors.
+    As we saw during the Communication module, more and more connected objects and systems are appearing every day. With them comes a huge amount of data. In this module, we worked on exploiting and adding value to these data.
 </p>
 
 <details>
     <summary style="color: #98c379">Description</summary>
     <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-        The Analysis & Data processing module gathers three classes. Two of them study different fields using data in an innovative way, with big data analysis and semantic web for IoT. The third one does not directly apply to data, but it is a more general course about Software Engineering practice.
-    </p>
-    <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-        You can find a quick summary of the courses content in the adjacent table. The next subsection will focus on one experiences in more detail: the data analysis project made using the R language.
+        This module is composed of three courses. In Big Data and Semantic Data, we studied different way to handle data. The Software Engineering class was more about general skills necessary for software engineering like the Agile method or Continuous Integration. I summarized the classes in the table below. The next subsection will focus on one experience: the data analysis project made using Python and sklearn.
     </p>
     <table style="border-collapse: collapse; border: 1px #98c379 solid; text-align: center; margin-left: 2%;">
     <tr style="border: 1px #98c379 solid; background-color: #98c379; color: #282c34; font-weight: bold;text-align: center; padding: 10px;">
@@ -36,7 +33,7 @@ SUPERVIZOR: NAWAL GUERMOUCHE
     <details style="text-indent: 10%;">
         <summary style="color: #98c379">Data processing and clustering project</summary>
         <p style="text-indent: 10%; margin-left: 10%; text-align: justify;">
-            The main project of this module was the Data processing and clustering project. 
+            In this class, we learned how to process data and we saw different clustering methods. We could choose some data sets from a wide choice of data sets to study the different clustering methods. We studied the K-Means, Agglomerative and DBSCAN methods. After establishing the benefits and drawbacks of each methods, we used them to study unknown data sets. Finally, we had to do a full study of a real meteorological data. You can find the report in the link below: 
         </p>
     </details>
 </details>
@@ -47,42 +44,24 @@ SUPERVIZOR: NAWAL GUERMOUCHE
     <details style="text-indent: 2%;">
         <summary style="color: #98c379">Semantic data</summary>
         <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            Having followed the Semantic Web class last year in 4IR-I, I was already familiar with most of the concepts overseen during this class. The content of the lecture and the first lab, going over the definition of an Ontology, a Knowledge-base and some conventions like RDFS, were elements I already knew and used. However, it still served as a resfresher, and prepared me for the second lab, which focused on how to semantic web methods in IoT.
-        </p>
-        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-           The context of the lab was simple: taking as an input sensor data from a smart city in Denmark, we were supposed to "enrich" the raw data using an ontology we created. That way, we could add meaning to the data, allowing to reason and exploit it more easily.
-        </p>
-        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-           To do so, I had to create an MVC based architecture in Java that would parse the CSV data and transform it to an exploitable knowledge-base. It mostly required skills in Java programming, which I had acquired in my previous years and from personal projects. Overall, this and the knowledge about Semantic web I acquired last year and this year helped me to succeed for this lab.
+            Since it was the first time I had a Semantic Data class, the challenge was to grasp the meaning of the different notions like Ontology, Data Property or Object Property. The first lab really helped with that. The second lab used the ontology we created with a Java application. The main challenge of this lab was to understand how to create an Instance and how to manipulate them in Java. My knowledge in this programming language helped me to implement the different functions I needed for this application.
         </p>
     </details>
     <br>
     <details style="text-indent: 2%;">
         <summary style="color: #98c379">Big data</summary>
         <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            While the Big Data lectures focused more on general data analysis concepts and good practice, the tutorials were mostly focused on learning the R language and its plotting tool: ggplot2. However, it was important to know about what is relevent to plot and what is the correct chart to show it before going into how to implement it.
-        </p>
-        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            When wanting to exploit a dataset to plot data using R, there are two main difficulties.
-        </p>
-        <ul style="text-align: justify;">
-            <li>First, you need to transform the data from its original form in the dataset, to the way you want it in order to build your plot. It may involve sorting, grouping values by year, computing average values. These are standard operations I was used to use in other languages, notably in Python. However, the particularity of R (and the python package Pandas for example) is that it does not rely on classic iterative loops.
-            There are no for or while loop in R. Fortunately, there are mapping functions, and especially the method ddply, which helps us do what we ususally do using for loops. It still was challenging to have to think of another way to accomplish a task you have done many times.</li>
-            <br>
-            <li>Second, you need to plot the data, choosing the right type of chart with correct parameters. It is key to have a chart that is readable, clear, and does not imply a meaning that differs from the dataset. For example, choosing an incorrect scale or ignoring values can allow to reach conclusions from a chart that are not true if you look to the dataset in detail. Here, it is important to remember the theoretical concepts of plotting, and also use some common sense to know what choice to make and how to make the best of the data you have. Learning this through the tutorials helped me a lot movinf forward with the project.</li>
-        </ul>
-        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            In the end, this class involved theoretical skills learned during the lecture, but also technical skills gaine from the tutorials and some self-teaching in order to master the R language. Basic knowledge of the Pandas python library was definitely helpful to me, especially when using data frames and iteration with ddply.
+            This class involved theoretical notions about data processing. During the lab sessions, we utilized these notions to analyze a real set of data. The challenges of these labs were to understand the sklearn package and the pandas package used to implement all the clustering methods. The working principle of the different metrics used to evaluate the methods was not as easy as I thought to understand. Thankfully, the documentation provided by scikit-learn website really helped me to fully comprehend all those notions.
         </p>
     </details>
     <br>
     <details style="text-indent: 2%;">
         <summary style="color: #98c379">Software engineering</summary>
         <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            The aim of this class was to give us an overview of the phases in software development, along with the main project management methods. Learning it through the lecture was one thing, but the real task was to apply it for the different projects we would have during the year. The main method we were tasked to apply is the Agile method. It is the most popular management method in software development and is widely used today. Personally, I used it in 4th Year at INSA for my research project and in my 4th Year summer internship, in a startup of 17 employees. Using the Agile method was something I was familiar with, but during this class I used tools I had never used before, especially Icescrum.
+            This class gave us an insight of software development and project management methods. After learning it during theoretical courses, we had to implement these methods to our projects. The main method we had to apply was the Agile method. I already had a class in 4th year called Project Management which addressed this method, so I was already familiar with it. The challenge was to use a tool, the Jira software, to implement the Agile method in our projects. We used it during our Service Oriented Architecture project. It took us some time to get acquainted with this tool. In the end, it was useful to us in order to respect the planning of our project.
         </p>
         <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-        We used this tool as part of the Service Oriented Architecture project (in a group of three students). It is really complete and full of options for task annotation and sprint planning. The main challenge was taking the time to discover all the features of the tool and how to use them properly. In the end, we managed to make the most of it and the planning for the SOA project was respected. It is also important to note that we also used the Agile method for our Innovative Project during all semester, using Trello to manage tickets and tasks. However, this was not taken into account into this course.
+            Another challenge was to implement a Continuous Integration for our SOA project. It was difficult to use Jenkins since we did not have a server to host it. So, we ended up using GitHub Actions but since we did not see it during the classes, it was a bit difficult to implement.
         </p>
     </details>
 </details>
@@ -93,16 +72,16 @@ SUPERVIZOR: NAWAL GUERMOUCHE
     <details style="text-indent: 2%;">
         <summary style="color: #98c379">Self-evaluation with the skills matrix</summary>
         <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            This module had very separate classes involving different skillsets. It was very oriented towards skills I already acquired in my fourth year in IR-I, so it was a way for me to confirm and reinforce some skills, while acquiring new ones.
+            This module contained really different types of skills. The majority of those skills were new to me but I managed to acquired them thanks to these courses.
         </p>
         <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            For the Processing Semantic Data skillset, most of the requirements were already met in last year's class or with the general IR formation. The main new thing that I appreciated today was to actually use Semantic Web to enrich real-life sensor data, something that I did not have the chance to do last year.
+            For the Semantic Data class, I think I met the requirements by doing the labs which were really useful to me to fully comprehend the notions.
         </p>
         <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            For the Data Processing and Analysis: Big Data class, I really invested myself in learning the R language as a new tool for data analysis. With the experience I had with the Pandas Python library, it was a pretty easy process to learn the specific techniques of dataframe manipulation. However, I do not feel that I had enough time to master completely the possibilities regarding datasets and how to eploit them, while still getting to an acceptable level.
+            For the Big Data class, I was really invested in learning how to cluster the data even though I never did it before. I learned a lot of skills during these labs.
         </p>
         <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            For Software Engineering, I already knew most of the methods introduced and had a lot of experience with the Agile method. My INSA training and professional experience helped reach all the requirements.
+            For the Software Engineering class, I already knew the Agile method but learning to use a tool to help implement it is a good skill to have. It was also interesting to acquire a new method of software development, i.e., continuous integration. I think that I met the requirements but that I did not have time to go further.
         </p>
         <br>
         <table style="border-collapse: collapse; border: 1px #98c379 solid; text-align: center; margin-left: 2%;">
@@ -113,23 +92,47 @@ SUPERVIZOR: NAWAL GUERMOUCHE
        <th style="border: 1px #98c379 solid;">Learning mode</th>
     </tr>
     <tr>
+       <td style="border: 1px #abb2bf solid; background-color: #abb2bf; color: #282c34" colspan="4">Software Engineering</td>
+    </tr>
+    <tr>
+       <td style="border: 1px #98c379 solid;">Define the different phases in software development</td>
+       <td style="border: 1px #98c379 solid;">3</td>
+       <td style="border: 1px #98c379 solid;">4</td>
+       <td style="border: 1px #98c379 solid;">IT + PP</td>
+    </tr>
+    <tr>
+       <td style="border: 1px #98c379 solid;">Know the different project management methods</td>
+       <td style="border: 1px #98c379 solid;">3</td>
+       <td style="border: 1px #98c379 solid;">4</td>
+       <td style="border: 1px #98c379 solid;">IT</td>
+    </tr>
+    <tr>
+       <td style="border: 1px #98c379 solid;">Apply one of these methods to a project</td>
+       <td style="border: 1px #98c379 solid;">3</td>
+       <td style="border: 1px #98c379 solid;">4</td>
+       <td style="border: 1px #98c379 solid;">IT + PP</td>
+    </tr>
+    <tr style="border: 1px #98c379 solid; background-color: #98c379;">
+        <td colspan="4"></td>
+    </tr>
+    <tr>
        <td style="border: 1px #abb2bf solid; background-color: #abb2bf; color: #282c34" colspan="4">Processing Semantic Data</td>
     </tr>
     <tr>
        <td style="border: 1px #98c379 solid;">Design and understand a model for an application</td>
-       <td style="border: 1px #98c379 solid;">4</td>
+       <td style="border: 1px #98c379 solid;">3</td>
        <td style="border: 1px #98c379 solid;">4</td>
        <td style="border: 1px #98c379 solid;">IT</td>
     </tr>
     <tr>
        <td style="border: 1px #98c379 solid;">Know how to infer new knowlegde from a knowledge base</td>
-       <td style="border: 1px #98c379 solid;">4</td>
+       <td style="border: 1px #98c379 solid;">3</td>
        <td style="border: 1px #98c379 solid;">4</td>
        <td style="border: 1px #98c379 solid;">IT</td>
     </tr>
     <tr>
        <td style="border: 1px #98c379 solid;">Be able to enrich data with semantic meta-data</td>
-       <td style="border: 1px #98c379 solid;">4</td>
+       <td style="border: 1px #98c379 solid;">3</td>
        <td style="border: 1px #98c379 solid;">4</td>
        <td style="border: 1px #98c379 solid;">IT</td>
     </tr>
@@ -142,44 +145,14 @@ SUPERVIZOR: NAWAL GUERMOUCHE
     <tr>
        <td style="border: 1px #98c379 solid;">Know how to explore and represent data sets</td>
        <td style="border: 1px #98c379 solid;">3</td>
-       <td style="border: 1px #98c379 solid;">3</td>
+       <td style="border: 1px #98c379 solid;">4</td>
        <td style="border: 1px #98c379 solid;">IT + PE</td>
     </tr>
     <tr>
-       <td style="border: 1px #98c379 solid;">Master Rk</td>
-       <td style="border: 1px #98c379 solid;">4</td>
-       <td style="border: 1px #98c379 solid;">4</td>
-       <td style="border: 1px #98c379 solid;">IT + ST</td>
-    </tr>
-    <tr>
        <td style="border: 1px #98c379 solid;">Master complexity associated to statistical data processing and know the techniques to be used to minimise them</td>
-       <td style="border: 1px #98c379 solid;">4</td>
-       <td style="border: 1px #98c379 solid;">4</td>
-       <td style="border: 1px #98c379 solid;">IT</td>
-    </tr>
-    <tr style="border: 1px #98c379 solid; background-color: #98c379;">
-        <td colspan="4"></td>
-    </tr>
-    <tr>
-       <td style="border: 1px #abb2bf solid; background-color: #abb2bf; color: #282c34" colspan="4">Software Engineering</td>
-    </tr>
-    <tr>
-       <td style="border: 1px #98c379 solid;">Define the different phases in software development</td>
-       <td style="border: 1px #98c379 solid;">3</td>
-       <td style="border: 1px #98c379 solid;">4</td>
-       <td style="border: 1px #98c379 solid;">IT + PP</td>
-    </tr>
-    <tr>
-       <td style="border: 1px #98c379 solid;">know the different project management methods</td>
        <td style="border: 1px #98c379 solid;">3</td>
        <td style="border: 1px #98c379 solid;">4</td>
        <td style="border: 1px #98c379 solid;">IT</td>
-    </tr>
-    <tr>
-       <td style="border: 1px #98c379 solid;">Apply one of these methods to a project</td>
-       <td style="border: 1px #98c379 solid;">3</td>
-       <td style="border: 1px #98c379 solid;">4</td>
-       <td style="border: 1px #98c379 solid;">IT + PP</td>
     </tr>
     </table>
     </details>
@@ -187,21 +160,14 @@ SUPERVIZOR: NAWAL GUERMOUCHE
     <details style="text-indent: 2%;">
         <summary style="color: #98c379">General review and feedback on the course</summary>
         <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            This course was constituted of three classes that did not have much in common, especially the Software Engineering class which was linked to a project outside of this module, Service Oriented Architecture. There were not many links between the classes, so I find it best to analyse each class separately.
+            This module was very interesting. The Semantic Data class was short but precise. I think I learned a lot of interesting notions that I did not know before. I think that it would be stimulating to integrate these notions in a project. I enjoyed the class and I wish I had more labs on the subject.
         </p>
         <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            The semantic web for IoT class was pretty short and did not go too deep into the technical concepts. It is to be expected in ISS, but maybe IR-I students could have been dispensed at least for the lecture and first lab, as it was done for AE students in the Energy for IoT class. Having seen most of the material last year, I wish we would have gone further with maybe more hours put into the class, or its integration in one of the projects (like SOA for example). However, despite the duration of the class, the difficulty of the second lab seemed really too much for non IR-I students, and I found myself spending the majority of my time helping others who were having a hard time with Java programming. Maybe it would be a good idea to split the laboratory and give more guidance in it, as there were only a few lines of instructions. Overall, I still enjoyed the class because of my affinity to the subject, but I wish I could have done more in it.
+            Next, I was wondering why the Software Engineering class was a part of this module and not in the Middleware and Service one since it was linked to the Service Oriented Architecture project. However, I did not like that we were forced to apply the Agile method to the SOA project. In fact, the project was done in groups of two or three students, which is not really relevant to the use of this method. It probably would have been better to use it to our Innovative project since it was a 4-month long project in teams of at least 5 students.
         </p>
         <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            The big data class felt refreshing, trying to teach the concepts and practices in a fun and non-formal way. After the lectures, the tutorials were well-guided and I appreciated that we were given space to look for solutions ourselves and take our time. The only grip I have would be the project, where we did not have any time associated with it in our schedule, so we had to work on it entirely on our free time. Fortunately, the project was pretty small, but we still had to rush it a little bit during the christmas vacation, which took away the possible maximum implication we could hacve gotten. Adding maybe 2 hours at the start for brainstorming and conception would have been a nice addition.
+            Finally, the Big Data class was really compelling. It felt amusing to try to analyze data and see the correlations in the analysis of the real data. I liked how the labs were created in a logical order (discovering the methods, using them, analyzing a real data set). It was a refreshing class since I did not have any before.
         </p>
-        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            As for the Software Engineering class, its placement in this module rather than the SOA module it is associated to is strange but purely administrative and does not bother anything. However, as its objective was to validate our application of the Agile method, I did not like that we were forced to apply it to the Service Oriented Architecture project. Indeed, the project was done in group of two or three students, which, even though is enough to use the method, is not ideal. In my case, I used the method in a group over a four month project for our main ISS project, and I would have very much preferred to validate this class through it.
-        </p>
-        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            In the end, this module reinforced my knowledge in Semantic Web technologies while building new skills in Big data analysis. While perfectible, the classes were interesting and easy to follow, at least for me as an IR student.
-        </P>
-        <br>
     </details>
 </details>
 

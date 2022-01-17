@@ -3,66 +3,37 @@
 SUPERVIZOR: THIERRY MONTEIL
 
 <p style="text-indent: 2%; text-align: justify;">
-    The INSA Toulouse Hackaton took place on December 5 and 6 of 2019. With a focus on connected mobility, it allowed us to come up with the best innovative ideas and prototypes, and then confront them to an expert jury of industrial actors.
+    Every year, the ISS students must participate in a Hackathon. This year, Mr. Monteil chose the International oneM2M Hackathon managed by the Korean Electronic Technology Institute (KETI) and the European Telecommunication Standards Institute (ETSI).
 </p>
 
 <details>
     <summary style="color: #36874a">Description</summary>
     <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-       DESCRIPTION
+       This Hackathon had international participants from Korea, India, Spain, Germany, USA, and France. It lasted one month from the 30th of September to the 4th of November. The deliverables were a huckster.io project describing the IoT solution we produced and a short demo video. The subject of this event was to build and IoT solution helping citizens with social or environmental issues using the oneM2M standard. Thus, it was a project with a close link to the Middleware & Service module.
     </p>
     <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-        DESCRIPTION 2
+        With a team of 4 students (2 from AE, 1 from GP and 1 from IR), we decided to create a Smart Crop Monitoring and Growth Management to reduce water consumption. As agriculture represents nearly 70% of the world’s water consumption, a lot of systems have been developed to optimize the watering method. However, plant growth is almost never considered.  Moreover, we noticed a significant lack of databases informing us about the parameters influencing the plant growth parameters. It is in this context that we wanted to develop an intelligent monitoring system to fill the gaps identified. The main functionalities of our system are the following:
     </p>
-    <br>
-    <details style="text-indent: 10%;">
-        <summary style="color: #36874a">Plant health monitoring system - Team Haka</summary>
-        <p style="text-indent: 10%; margin-left: 10%; text-align: justify;">
-            The main project of this module was the Data processing and clustering project. 
-        </p>
-    </details>
-    <br>
-    <details style="text-indent: 10%;">
-        <summary style="color: #36874a">Pitch, demo, results</summary>
-        <p style="text-indent: 10%; margin-left: 10%; text-align: justify;">
-            The main project of this module was the Data processing and clustering project. 
-        </p>
-    </details>
+    <ul style="text-align: justify;">
+        <li>Monitor the growth of the plant, water consumption and external parameters (luminosity, temperature, soil humidity, …).</li>
+        <br>
+        <li>Remotely control the watering or define some strategic rules to automate plant watering.</li>
+        <br>
+        <li>Predict the amount of water to deliver to the plant to achieve a certain growth rate over a given period for a given plant.</li>
+    </ul>
 </details>
 <br>
 <details>
     <summary style="color: #36874a">Technical challenges</summary>
      <br>
-    <details style="text-indent: 2%;">
-        <summary style="color: #36874a">Sensors</summary>
-        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            S1
-        </p>
-        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-           S2
-        </p>
-        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-           S3
-        </p>
-    </details>
-    <br>
-    <details style="text-indent: 2%;">
-        <summary style="color: #36874a">Node-Red</summary>
-        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            N1
-        </p>
-        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            N2
-        </p>
-        <ul style="text-align: justify;">
-            <li>1</li>
-            <br>
-            <li>2</li>
-        </ul>
-        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            N3
-        </p>
-    </details>
+    <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
+        During this Hackathon, we encountered many challenges:
+    </p>
+    <ul style="text-align: justify;">
+        <li>-	The sensors. As a matter of fact, we used several analogic sensors. Thus, we needed to use a multiplexer since the ESP8266 only has one analogic pin. It took us some time to operate it and we even had to change it. Finally, we succeeded thanks to the help of online documentation.</li>
+        <br>
+        <li>-	The valve. First, we had issues finding one, but we managed to get it one week before the deadline. Then, it was not working with our system and we had to buy hoses to guide the water flow into the valve. Moreover, to have enough pressure to use the valve, we used a cat water fountain motor. In the end, everything was working but it took us some time to understand what was missing and then to collect all the material.</li>
+    </ul>
 </details>
 <br>
 <details>

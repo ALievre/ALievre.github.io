@@ -229,7 +229,7 @@ SUPERVIZOR: HÉLÈNE HERENG
        <td style="border: 1px #9c56c2 solid;">IT + PE</td>
     </tr>
     <tr>
-       <td style="border: 1px #9c56c2 solid;">Choose, design and / or justify a protocol or an experimental prototype</td>
+       <td style="border: 1px #9c56c2 solid;">Choose, design and/or justify a protocol or an experimental prototype</td>
        <td style="border: 1px #9c56c2 solid;">4</td>
        <td style="border: 1px #9c56c2 solid;">4</td>
        <td style="border: 1px #9c56c2 solid;">IT</td>
