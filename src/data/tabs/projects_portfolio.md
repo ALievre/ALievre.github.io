@@ -2,16 +2,14 @@
 
 SUPERVIZOR: VINCENT MIGLIORE
 
-The entire 5ISS semester is centered around a large scale project. It brings together some of the skills and knowledge acquired in all of the modules, and puts us in charge of leading and managing a team with a project going over several months.
+<p style="text-indent: 2%; text-align: justify;">
+    This semester is centered around a large-scale project. This project is a culmination of all the education we received at INSA. It brings together the skills and knowledge acquired during the semester. It puts us in the situation of leading and managing a project going over several months.
+</p>
 
 <details>
     <summary style="color: #42a5f5">Description</summary>
     <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-        The Project & Portfolio course or module gathers three very important classes. Even though it only consists of three classes, it is probably the biggest and most important module of them all.
-    </p>
-    <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">    
-        The innovative project and english class are linked, they last for the entire semester, with the development of a technical solution and pitch presentations in english. The portfolio is this very website, encapsulating my experiences and skills learned during the year.
-        You can find a quick summary of the courses content in the adjacent table.
+        This module gathers three classes. This is an important module because it includes the biggest project of the semester. We improved our English with this project since every deliverable must be in English. Moreover, the portfolio is the completion of the semester since it regroups every skills and knowledge we acquired during the semester.
     </p>
     <table style="border-collapse: collapse; border: 1px #42a5f5 solid; text-align: center; margin-left: 2%;">
     <tr style="border: 1px #42a5f5 solid; background-color: #42a5f5; color: #282c34; font-weight: bold;text-align: center; padding: 10px;">
@@ -35,11 +33,17 @@ The entire 5ISS semester is centered around a large scale project. It brings tog
     <details style="text-indent: 10%;">
         <summary style="color: #42a5f5">RTK, you are not lost!</summary>
         <p style="text-indent: 10%; margin-left: 10%; text-align: justify;">
-            RTK1
+            Everyone is used to standard GPS geopositioning in their car, in their phone or in their computer. Standard GPS receivers have an accuracy between 2 to 10 meters, and only in outdoor conditions. As a group of 5 students, we teamed up to answer a problem raised by our tutor, professor Guillaume Auriol: to geolocate meteorological balloons in association with a Paul Sabatier team led by Professor Hassan Sabbah. As you can guess, the standard GPS is not accurate enough to precisely locate the balloon. So, our tutor was interested in a Real-Time Kinetics (RTK) solution since its accuracy is far more precise. The launch of the ArduSimple starter kit LR offered a relatively low-cost RTK module. Therefore, the aim of our project is to assess this solution to see if it is compatible with the needs of the project. As you can in the picture below, we were in possession of an ArduSimple starter kit LR composed of:
         </p>
-        <p style="text-indent: 10%; margin-left: 10%; text-align: justify;">
-            RTK2
-        </p>
+        <ul style="text-align: justify;">
+            <li>2 simpleRTK2B boards (Rover and Base Station)</li>
+            <br>
+            <li>2 Radio Modules LR (Long Range) with Xbee + 2 radio antennas</li>
+            <br>
+            <li>2 u-blox ANN-MB-00 Antenna for GNSS Dual Band with cable (IP67)</li>
+            <br>
+            <li>Base and Rover preconfiguration</li>
+        </ul>
     </details>
 </details>
 <br>

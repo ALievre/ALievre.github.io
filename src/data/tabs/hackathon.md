@@ -39,21 +39,15 @@ SUPERVIZOR: THIERRY MONTEIL
 <details>
     <summary style="color: #36874a">Analysis</summary>
     <br>
-    <details style="text-indent: 2%;">
-        <summary style="color: #36874a">Personal review and feedback</summary>
-        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            I may be biased do to the fact of winning it, but I feel like tha Hackaton was a really great experience for me and all the other students. We were put in a fair competing environment where there was only good spirit and help between the different team. I was lucky to have a team that was very invested in the event and was willing to finish at 11 PM on the 5th.
-        </p>
-        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            A rush event like this one brings up a lot of key engineer skills in my opinion. You have to be able to explain your ideas quickly and clearly to your team, listen to everyone input and try to assign tasks in the more efficient way. Managing different skillsets on a limited time window can be tough, but I think we did a pretty good job with it. Working long hours can also be a source of conflict between team members, and it is important to avoid or manage that.
-        </p>
-        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
-            On a more technical standpoint, even though we contemplated getting out of our comfort zone and trying to work on different fields than our field of expertize, we realized that with so little time, we had to focus on what we were good at. I would say this was a good test to see how to work under stress and time constraint without getting overwhelmed by it. I used technical points seen in the classes of ISS, like RESt requests in Python, Arduino data interfacing, etc ...
-        </p>
-        <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">   
-            In the end, it was a real pleasure to take part in the Hackaton, me and my teammates tried to produce the best thing we could, and we are really happy that it paid of and lead to a victory in the end.
-        </p>
-    </details>
+    <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
+        This project was undoubtedly stimulating. It was nice to work on a big project, with all the equipment at our disposal and on a subject that we cared about. Once again, that is the kind of project I expected to have in ISS. Moreover, having a team composed of students from different background was very refreshing. Working on every aspect of an engineering project was very rewarding.
+    </p>
+    <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
+        The only downside was the time allocated to do the project. The deadline was set by the organizers but not knowing early that we will have to participate in a Hackathon did not prepare us. In addition, being required to team with students with different background was a really good idea but it would have been better if we knew it ahead of time. In fact, we did not really know each other so we randomly formed the teams.
+    </p>
+    <p style="text-indent: 2%; margin-left: 2%; text-align: justify;">
+        Overall, it was a very good experience but a little bit tarnished by the lack of time.
+    </p>
 </details>
 
 <p>-oneM2M Hackathon-</p>

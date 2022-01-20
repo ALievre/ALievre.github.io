@@ -109,52 +109,52 @@ SUPERVIZOR: DANIELA DRAGOMIRESCU
         </p>
         <br>
         <table style="border-collapse: collapse; border: 1px #9599a0 solid; text-align: center; margin-left: 2%;">
-    <tr style="border: 1px #9599a0 solid; background-color: #9599a0; color: #282c34; font-weight: bold;text-align: center; padding: 10px;">
-       <th style="border: 1px #9599a0 solid;">Skill</th>
-       <th style="border: 1px #9599a0 solid;">Required level</th>
-       <th style="border: 1px #9599a0 solid;">Self-evaluation</th>
-       <th style="border: 1px #9599a0 solid;">Learning mode</th>
-    </tr>
-    <tr>
-       <td style="border: 1px #abb2bf solid; background-color: #abb2bf; color: #282c34" colspan="4">Protocols & Communication</td>
-    </tr>
-    <tr>
-       <td style="border: 1px #9599a0 solid;">Understand and master the new mobile networks technologies</td>
-       <td style="border: 1px #9599a0 solid;">4</td>
-       <td style="border: 1px #9599a0 solid;">4</td>
-       <td style="border: 1px #9599a0 solid;">IT</td>
-    </tr>
-    <tr>
-       <td style="border: 1px #9599a0 solid;">Be able to analyse and evaluate protocoles dedicated to Wireless Sensor Networks/IoT</td>
-       <td style="border: 1px #9599a0 solid;">4</td>
-       <td style="border: 1px #9599a0 solid;">3</td>
-       <td style="border: 1px #9599a0 solid;">IT</td>
-    </tr>
-    <tr>
-       <td style="border: 1px #9599a0 solid;">Understand and master the fundamentals of emerging network paradigms applied to IoT</td>
-       <td style="border: 1px #9599a0 solid;">4</td>
-       <td style="border: 1px #9599a0 solid;">4</td>
-       <td style="border: 1px #9599a0 solid;">IT + PE</td>
-    </tr>
-    <tr>
-       <td style="border: 1px #9599a0 solid;">Understand and master the optimisation of IoT communication protocols at MAC level</td>
-       <td style="border: 1px #9599a0 solid;">4</td>
-       <td style="border: 1px #9599a0 solid;">2</td>
-       <td style="border: 1px #9599a0 solid;">IT</td>
-    </tr>
-    <tr>
-       <td style="border: 1px #9599a0 solid;">Understand and master the security mechanismes of IoT communication protocols</td>
-       <td style="border: 1px #9599a0 solid;">4</td>
-       <td style="border: 1px #9599a0 solid;">4</td>
-       <td style="border: 1px #9599a0 solid;">IT + PE</td>
-    </tr>
-    <tr>
-       <td style="border: 1px #9599a0 solid;">Mastering the architecture of an energy management system, simple storage, energy recovery, know how to size the storage element according to the specifications</td>
-       <td style="border: 1px #9599a0 solid;">4</td>
-       <td style="border: 1px #9599a0 solid;">4</td>
-       <td style="border: 1px #9599a0 solid;">IT</td>
-    </tr>
-    </table>
+            <tr style="border: 1px #9599a0 solid; background-color: #9599a0; color: #282c34; font-weight: bold;text-align: center; padding: 10px;">
+                <th style="border: 1px #9599a0 solid;">Skill</th>
+                <th style="border: 1px #9599a0 solid;">Required level</th>
+                <th style="border: 1px #9599a0 solid;">Self-evaluation</th>
+                <th style="border: 1px #9599a0 solid;">Learning mode</th>
+            </tr>
+            <tr>
+                <td style="border: 1px #abb2bf solid; background-color: #abb2bf; color: #282c34" colspan="4">Protocols & Communication</td>
+            </tr>
+            <tr>
+                <td style="border: 1px #9599a0 solid;">Understand and master the new mobile networks technologies</td>
+                <td style="border: 1px #9599a0 solid;">4</td>
+                <td style="border: 1px #9599a0 solid;">4</td>
+                <td style="border: 1px #9599a0 solid;">IT</td>
+            </tr>
+            <tr>
+                <td style="border: 1px #9599a0 solid;">Be able to analyse and evaluate protocoles dedicated to Wireless Sensor Networks/IoT</td>
+                <td style="border: 1px #9599a0 solid;">4</td>
+                <td style="border: 1px #9599a0 solid;">3</td>
+                <td style="border: 1px #9599a0 solid;">IT</td>
+            </tr>
+            <tr>
+                <td style="border: 1px #9599a0 solid;">Understand and master the fundamentals of emerging network paradigms applied to IoT</td>
+                <td style="border: 1px #9599a0 solid;">4</td>
+                <td style="border: 1px #9599a0 solid;">4</td>
+                <td style="border: 1px #9599a0 solid;">IT + PE</td>
+            </tr>
+            <tr>
+                <td style="border: 1px #9599a0 solid;">Understand and master the optimisation of IoT communication protocols at MAC level</td>
+                <td style="border: 1px #9599a0 solid;">4</td>
+                <td style="border: 1px #9599a0 solid;">2</td>
+                <td style="border: 1px #9599a0 solid;">IT</td>
+            </tr>
+            <tr>
+                <td style="border: 1px #9599a0 solid;">Understand and master the security mechanismes of IoT communication protocols</td>
+                <td style="border: 1px #9599a0 solid;">4</td>
+                <td style="border: 1px #9599a0 solid;">4</td>
+                <td style="border: 1px #9599a0 solid;">IT + PE</td>
+            </tr>
+            <tr>
+                <td style="border: 1px #9599a0 solid;">Mastering the architecture of an energy management system, simple storage, energy recovery, know how to size the storage element according to the specifications</td>
+                <td style="border: 1px #9599a0 solid;">4</td>
+                <td style="border: 1px #9599a0 solid;">4</td>
+                <td style="border: 1px #9599a0 solid;">IT</td>
+            </tr>
+        </table>
     </details>
     <br>
     <details style="text-indent: 2%;">
