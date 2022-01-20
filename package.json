@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/ALievre/Portfolio"
   },
-  "homepage": "https://alievre.github.io/Portfolio/",
+  "homepage": "https://alievreportfolio.com",
   "license": "GNU GPLv3",
   "scripts": {
     "predeploy": "npm run build",
