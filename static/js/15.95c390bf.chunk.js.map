@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/tabs/skills.md"],"names":["module","exports"],"mappings":"8HAAAA,EAAOC,QAAU,IAA0B","file":"static/js/15.95c390bf.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/skills.2946d104.md\";"],"sourceRoot":""}
